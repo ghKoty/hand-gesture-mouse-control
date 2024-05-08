@@ -61,7 +61,7 @@ With this software you can move mouse cursor, left click, right click, and scrol
 ## Supported hand gestures
 
 
-![hand screenshot](readme-resources/hand-main.png "all tracked points"
+![hand screenshot](readme-resources/hand-main.png "all tracked points")
 
 
 You can **move** mouse cursor  by touching <span style="color:blue">**thumb**</span> with <span style="color:green">**middle finger**</span> and moving hand
