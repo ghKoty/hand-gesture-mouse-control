@@ -14,9 +14,9 @@ hands = mpHands.Hands(static_image_mode=False, max_num_hands=1)
 
 
 # ==========some settings===========
-drag_threshold = 3
+drag_threshold = 2
 drag_sensitivity = 0.1
-scroll_threshold = 3
+scroll_threshold = 2
 scroll_sensitivity = 0.4
 press_threshold_multiplyer = 1
 # ==================================
@@ -36,6 +36,7 @@ def getDistanceBeetween(base, tip, is_thumb=False):
     return base_to_tip_norm
 
 
+pyautogui.PAUSE = 0.01
 pyautogui.FAILSAFE = False
 cap = cv2.VideoCapture(0)
 
